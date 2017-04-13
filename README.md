@@ -5,16 +5,16 @@ Source Code for Rob Hung
 # Folder Structure
 
 ```
-www-robhung/		///// Root
-├── build/		///// Production Code (Deployment)
-├── public/		///// Public Assets & Images
-├── public/assets/css		///// CSS Style Sheets
-├── public/assets/fonts	///// Font Awesome
+www-robhung/		        ///// Root
+├── build/		        ///// Production Code (Deployment)
+├── public/		        ///// Public Assets & Images
+├── public/assets/css	        ///// CSS Style Sheets
+├── public/assets/fonts	        ///// Font Awesome
 ├── public/assets/js	        ///// JavaScript
 ├── public/assets/sass		///// SASS Style Sheets
 ├── public/images		///// Image Files
-├── src/		///// Source Code
-├── src/components	///// React Components
+├── src/		        ///// Source Code
+├── src/components	        ///// React Components
 ```
 
 # Yarn & NPM Commands
