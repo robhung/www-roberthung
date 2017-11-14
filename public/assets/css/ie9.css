@@ -7,7 +7,7 @@
 /* Basic */
 
 	body {
-		background-image: url("../../images/bg.jpg");
+		background-color: #f5f5f5;		
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: bottom center;
@@ -25,7 +25,7 @@
 	}
 
 	ul.icons li a:hover:before {
-		color: #ff7496;
+		color: #03396c;
 	}
 
 /* Wrapper */
