@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "My Gatsby Site",
+    title: "Robert Hung",
   },
-  plugins: [],
+  plugins: ["gatsby-plugin-typescript"],
 };
