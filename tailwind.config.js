@@ -1,8 +1,16 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        transparent: "transparent",
+        current: "currentColor",
+        ...colors,
+      },
       height: {
         "1/2": "50%",
         "1/3": "33.333333%",
@@ -56,6 +64,11 @@ module.exports = {
         "screen-9/12": "75vh",
         "screen-10/12": "83.333333vh",
         "screen-11/12": "91.666667vh",
+      },
+      letterSpacing: {
+        "wide-0.15": ".15em",
+        "wide-0.20": ".20em",
+        "wide-0.25": ".25em",
       },
       width: {
         "1/2": "50%",
