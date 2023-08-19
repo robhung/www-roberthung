@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.2.5",
-    "gatsby": "^3.5.0",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-postcss": "^4.5.0",
     "gatsby-plugin-typescript": "^3.5.0",
     "postcss": "^8.2.15",
